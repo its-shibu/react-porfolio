@@ -1,0 +1,22 @@
+.navbar-brand {
+    font-weight: bold;
+    font-size: 1.5rem;
+    margin-right: 3rem; /* Space between name and menu */
+}
+.nav-center {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.nav-right {
+    margin-left: auto;
+}
+@media (max-width: 992px) {
+    .nav-center, .nav-right {
+        position: static;
+        transform: none;
+        text-align: center;
+        margin: 0.5rem 0;
+    }
+}
+@import "tailwindcss"
